@@ -3,7 +3,7 @@ from pprint import pprint
 import flask
 from flask import Flask, make_response, request, render_template, redirect, abort, jsonify, url_for
 from flask_pymongo import PyMongo
-from .forms import ProductForm, ProductFormEdit
+from forms import ProductForm, ProductFormEdit
 from bson.objectid import ObjectId
 import bson
 from flask_login import LoginManager, current_user
